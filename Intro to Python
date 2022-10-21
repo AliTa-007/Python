@@ -1,15 +1,52 @@
-# Toplama
+Bunlari ogrenirken acik bir shell veya interpreterdan kendiniz yazin derim.
+
+
+# Toplama +
 print(5 + 5)
 # Output: 10
 
-# Cikartma
+# Cikartma -
 print(10 - 5)
 # Output: 5
 
-# Carpma
+# Carpma *
 print(5 * 10)
 # Output: 150
 
-# Bolme
+# ustlu sayilar **
+print(10 ** 3)
+# Output: 1000
+
+# Bolme /
 print(10 / 5)
 # Output: 2
+
+# kalansiz bolme //
+print(14 // 5)
+# Output: 2
+
+# kalani bulma %
+print(13 % 5)
+# Output: 3
+
+# x'e bir deger belirlemek
+x = 5
+
+# Print x
+print(x)
+# Output: 5
+
+# Sayi olabilecegi 'x' gibi string, list, 2-D list olabilir.
+
+# Bu sefer x string olsun
+x = "testing"
+
+# tek ' veya cift " tirnak pek farketmiyor
+
+# type()
+# x'in turunu ogrenmek icin kullanilan komut 
+# Print the type of x
+print(type(x))
+# Output: <class 'str'>
+
+# x'in 
