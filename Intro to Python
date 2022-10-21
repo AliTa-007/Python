@@ -29,6 +29,9 @@ print(14 // 5)
 print(13 % 5)
 # Output: 3
 
+
+
+
 # x'e bir deger belirlemek
 x = 5
 
@@ -36,17 +39,59 @@ x = 5
 print(x)
 # Output: 5
 
-# Sayi olabilecegi 'x' gibi string, list, 2-D list olabilir.
+# Sayi olabilecegi 'x' gibi string, float, boolean, list, 2-D list olabilir.
 
 # Bu sefer x string olsun
 x = "testing"
 
 # tek ' veya cift " tirnak pek farketmiyor
 
-# type()
+type()
 # x'in turunu ogrenmek icin kullanilan komut 
 # Print the type of x
 print(type(x))
 # Output: <class 'str'>
 
-# x'in 
+
+
+
+# kullanicinin bir yanitini almak
+# parantezini icine sormak istediginiz soruyu yaz
+Ali = input("tek oturusta kac tane domates yiyebilirsin?")
+Ahmet = input("tek oturusta kac tane domates yiyebilirsin?")
+
+# input her zaman string tir
+# x'in turunu degistirebilirsin
+# bazen print kullanirken x int oldugu icin hata verir bazen de aldigin inputla hesaplama yapmak istersin
+toplam_domates = int(Ali) + int(Ahmet)
+print("Ali ve Ahmet birlikte " + str(toplam_domates) + " yediler")
+print("Ali ve Ahmet birlikte ", str(toplam_domates), " yediler")
+# ayni isi gorur fakat , kendi boslugunu koyar. 
+
+
+
+# her kelimenin nasil harfleri oluyorsa her listin kelime, harf, sayi, booleanlari ve hatta baska listeleri de olabilir
+# list olusturmak
+my_list = ["ali", "1", "True", "t"]
+
+# Print the list
+print(my_list)
+# Output: ['ali', '1', 'True', 't']
+
+# list olustur
+my_list = ["Learning", "Python", "is", "fun!"]
+# Output: ['Learning', 'Python', 'is', 'fun!']
+
+# Print the first element of my_list
+print(my_list[0])
+# Output: ['Learning']
+
+# Print the last element of my_list
+print(my_list[-1])
+# Output: ['fun!']
+
+# Print the first two elements of my_list
+print(my_list[0:2])
+# Output: ['Learning', 'Python']
+
+#bunlar stringler icinde aynen gecerli
